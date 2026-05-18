@@ -1,0 +1,7 @@
+name = "Paper"
+license = "MIT"
+licenselink = "https://github.com/nanxiaobei/hugo-paper/blob/main/LICENSE"
+description = "A minimal Hugo theme"
+
+[author]
+  name = "custom"

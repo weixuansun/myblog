@@ -1,0 +1,54 @@
+baseURL = "https://your-site.vercel.app/"
+languageCode = "zh-cn"
+title = "My Blog"
+theme = "paper"
+
+# 文章摘要长度
+summaryLength = 100
+
+# 启用 RSS
+[outputs]
+  home = ["HTML", "RSS"]
+
+# 站点参数
+[params]
+  # 作者名（修改为你的名字）
+  author = "Your Name"
+  # 站点描述
+  description = "个人技术博客"
+
+  # 社交链接（修改为你自己的）
+  github = "your-github"
+  twitter = "your-twitter"
+  email = "your@email.com"
+  # zhihu = "your-zhihu-id"
+  # wechat = ""
+
+# 导航菜单
+[menu]
+  [[menu.main]]
+    name = "archives"
+    url = "/archives/"
+    weight = 1
+  [[menu.main]]
+    name = "tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    name = "about"
+    url = "/about/"
+    weight = 3
+
+# URL 格式
+[permalinks]
+  posts = "/posts/:slug/"
+
+# Markdown 渲染设置
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = false
+    guessSyntax = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
