@@ -136,6 +136,50 @@ body {
   margin-top: 0.25rem;
 }
 
+/* ===== List Pages ===== */
+.page-title {
+  font-family: var(--font-sans);
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.tag-item {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text);
+  text-decoration: none;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  padding: 0.35rem 0.75rem;
+}
+
+.tag-item:hover {
+  color: var(--color-link-hover);
+  border-color: var(--color-text-light);
+}
+
+.tag-count {
+  color: var(--color-text-light);
+}
+
+.archive-year {
+  margin-bottom: 2rem;
+}
+
+.archive-year h2 {
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--color-text-light);
+  margin-bottom: 0.5rem;
+}
+
 /* ===== Pagination ===== */
 .pagination {
   display: flex;

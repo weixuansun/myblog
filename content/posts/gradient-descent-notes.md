@@ -2,7 +2,6 @@
 title: "梯度下降优化算法笔记"
 date: 2026-05-17
 tags: ["机器学习", "优化", "深度学习"]
-author: "Your Name"
 math: true
 description: "常见梯度下降优化器的数学推导与对比。"
 ---

@@ -1,6 +1,6 @@
 {{ define "main" }}
-<h1 class="page-title">Archives</h1>
-{{ $pages := .Site.RegularPages }}
+<h1 class="page-title">归档</h1>
+{{ $pages := where .Site.RegularPages "Section" "posts" }}
 {{ $grouped := $pages.GroupByDate "2006" }}
 {{ range $grouped }}
 <div class="archive-year">

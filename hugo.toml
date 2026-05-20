@@ -1,6 +1,6 @@
-baseURL = "https://your-site.vercel.app/"
-languageCode = "zh-cn"
-title = "My Blog"
+baseURL = "/"
+languageCode = "zh-CN"
+title = "Guts' blogs"
 theme = "paper"
 
 # 文章摘要长度
@@ -12,30 +12,31 @@ summaryLength = 100
 
 # 站点参数
 [params]
-  # 作者名（修改为你的名字）
-  author = "Your Name"
+  # 作者名（留空时页脚使用站点标题）
+  author = ""
   # 站点描述
   description = "个人技术博客"
 
-  # 社交链接（修改为你自己的）
-  github = "your-github"
-  twitter = "your-twitter"
-  email = "your@email.com"
+  # 社交链接（留空则不渲染）
+  twitter = ""
+  email = "weixuansun7@gmail.com"
+  google_scholar = ""
+
   # zhihu = "your-zhihu-id"
   # wechat = ""
 
 # 导航菜单
 [menu]
   [[menu.main]]
-    name = "archives"
+    name = "归档"
     url = "/archives/"
     weight = 1
   [[menu.main]]
-    name = "tags"
+    name = "标签"
     url = "/tags/"
     weight = 2
   [[menu.main]]
-    name = "about"
+    name = "关于"
     url = "/about/"
     weight = 3
 
@@ -51,4 +52,4 @@ summaryLength = 100
     guessSyntax = true
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true
+      unsafe = false

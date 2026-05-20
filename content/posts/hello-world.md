@@ -2,7 +2,6 @@
 title: "Hello World - 我的第一篇博客"
 date: 2026-05-18
 tags: ["随笔"]
-author: "Your Name"
 description: "这是我的第一篇博客文章，记录建站过程。"
 ---
 

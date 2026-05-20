@@ -7,7 +7,10 @@
       {{ with .Params.author }}<span class="post-author"> &middot; {{ . }}</span>{{ end }}
       {{ if .Params.tags }}
       <div class="post-tags">
-        {{ range .Params.tags }}<a href="{{ "tags/" | relURL }}{{ . | urlize }}/">#{{ . }}</a>{{ end }}
+        {{ range .Params.tags }}
+        {{ $tagPage := site.GetPage (printf "/tags/%s" .) }}
+        {{ with $tagPage }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ else }}<a href="{{ printf "tags/%s/" (. | urlize) | relURL }}">#{{ . }}</a>{{ end }}
+        {{ end }}
       </div>
       {{ end }}
     </div>
