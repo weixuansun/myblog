@@ -20,7 +20,7 @@ summaryLength = 100
   # 社交链接（留空则不渲染）
   twitter = ""
   email = "weixuansun7@gmail.com"
-  google_scholar = ""
+  google_scholar = "https://scholar.google.com/citations?user=vIS56AoAAAAJ&hl=zh-CN"
 
   # zhihu = "your-zhihu-id"
   # wechat = ""
@@ -28,15 +28,15 @@ summaryLength = 100
 # 导航菜单
 [menu]
   [[menu.main]]
-    name = "归档"
+    name = "logs"
     url = "/archives/"
     weight = 1
   [[menu.main]]
-    name = "标签"
+    name = "tags"
     url = "/tags/"
     weight = 2
   [[menu.main]]
-    name = "关于"
+    name = "about"
     url = "/about/"
     weight = 3
 

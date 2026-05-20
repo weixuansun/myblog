@@ -5,12 +5,11 @@ date: 2026-05-18
 
 ## About Me
 
-这里可以写一些关于你的介绍。
+I work on LLM at Tencent Hunyuan.
 
-- 研究方向 / 工作领域
-- 教育背景
-- 联系方式
+I finished my Ph.D. in Australian National University in Canberra, Australia, supervised by Prof. [Nick Barnes](https://users.cecs.anu.edu.au/~nmb/). 
 
-## Links
+2021-2023: I conducted research internship in Sensetime, Shanghai AI Lab and Tencent, working on LLMs.
 
-联系方式和社交链接可以在 `hugo.toml` 中配置。
+Before that, I received my Bachelors from both Beijing Institute of Technology(mechanics) and Australian National University(mechatronics).
+
